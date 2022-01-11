@@ -1,0 +1,108 @@
+/* France Lee */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+:root {
+    --Paleblue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Darkblue: hsl(223, 47%, 23%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --red: 'Red Hat Display';
+    --bold: 'Red Hat Display', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 1500px 450px;
+    background-color: var(--Paleblue);
+    display: flex;
+    align-items: center;
+}
+.main {
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--red);
+    align-items: center;
+    border-radius: 10px;
+    width: 400px;
+    height: 640px;
+}
+.main h2 {
+    font-size: 24px;
+    font-family: var(--bold);
+    color: var(--Darkblue);
+    margin-top: 35px;
+}
+.main #ds {
+    text-align: center;
+    width: 350px;
+    margin-top: 0;
+}
+.main #illust {
+    border-radius: 10px 10px 0 0;
+    width: 400px;
+}
+.mid {
+    width: 350px;
+    background-color: var(--Verypaleblue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+    height: 100px;
+}
+.mid a {
+    text-decoration: none;
+    color: var(--Brightblue);
+    margin: 0 15px;
+}
+.left {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.inner h4 {
+    font-family: var(--bold);
+    margin: 5px 0;
+}
+button {
+    width: 350px;
+    height: 40px;
+    color: white;
+    border: none;
+    background-color: var(--Brightblue);
+    margin: 30px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: -10px 11px 11px 11px var(--Paleblue);
+}
+button:hover {
+    background-color: hsl(245, 82%, 35%);
+    transition: .50s ease-in-out;
+}
+#cancel {
+    color: var(--Darkblue);
+    text-decoration: none;
+    font-weight: 600;
+}
+.attribution {
+    margin: auto;
+}
+.attribution a {
+    color: blue;
+    text-decoration: none;
+}
